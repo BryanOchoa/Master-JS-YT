@@ -177,3 +177,130 @@
 //   i++;
 // } while (i <= 400);
 
+// ------------------------------------->
+
+// Logical Operators
+//1. --> Logical AND (&&)
+// --> TRUE if both the operands/boolean values are true, else evaluates false
+
+// const a = true;
+// const b = false;
+// const c = 4;
+
+// console.log(a && b) this will show us false since one is false, if you change b to true that makes both a and b true so it will show true.
+
+
+// 2. --> Logical OR (||)
+//--> TRUE if either the operands/boolean value is true, else it evaluates to false if both are false.
+
+// console.log(a || b); this will show true because one of the two are set to true.
+
+
+// 3. --> Logical NOT (!)
+// --> True if the operands are false and vice-versa
+
+// console.log(!a) this will give us false because it is in front of our true statement so it just changes it to the opposite, if you change the a to b and leave the ! in the front you will see it change the false into true.
+
+// let password = "Bryan"
+
+// if (password.length > 4 && password.includes('an')) {
+//     console.log("Valid Password")
+// } else {
+//     console.log("Invalid Password")
+// } this gives us a valid password because both are true
+
+// if (password.length > 8 || password.includes('an')) {
+//     console.log("Valid Password")
+// } else {
+//     console.log("Invalid Password")
+// } this gives us a valid password because one of them are true
+
+
+// ----------------------->
+
+// Arrays -> 0 index based 
+
+// Empty array
+// const myList = [];
+
+// you can store numbers and strings in arrays.
+
+// How to access items from arrays
+//  const string = ['Eat', 'Sleep', 'Code']
+//  console.log(string[0]) this shows Eat because eat is in the 0 index.
+
+// Nested arrays
+
+// const nestArr = ['One', ["two", 'three'], 1, true];
+// console.log(nestArr[1][1]) will show three because its the 1 index of the nested array
+
+// const myLetter = ['B', 'r', 'y', 'a', 'n'];
+// console.log(myLetters)
+
+//Challenge
+
+// const favSingers = ['Drake', 'Cole', 'Carin'];
+// console.log(favSingers[0]);
+// Drake
+
+// const favNumbers = [3, 14, 30, 7]
+// console.log(favNumbers);
+// (4) [3, 14, 30, 7]
+
+// const mixedArr = ["Hello", ["Bryan"], 30, false];
+// console.log(mixedArr[0])
+// console.log(mixedArr[1][0])
+// console.log(mixedArr[2])
+// console.log(mixedArr[3])
+// Hello
+// Bryan
+// 30
+// false
+
+// Basic Array Methods
+
+// concat() --> joins two or more arrays and returns result
+// includes() --> checks if any array contains a specified element
+// push() --> adds a new element to the end of an array and returns the new length of an array
+// unshift() --> adds a new element to the beginning of an array and returns the new length of the array
+// pop() --> removes the last element of an array and returns the removed element 
+// shift() --> removes the first element of an array and returns the removed element
+// sort() --> sorts the elements alphabetically in strings and in ascending order
+// slice() --> selects the part of an array and returns the new array
+// splice() --> removes or replaces existing elements and/or adds new elements
+
+//examples
+
+// const fruit = [
+//     'apples',
+//     'banana',
+//     'mango',
+//     'strawberry',
+//     'pineapple'
+// ];
+
+
+// fruits.push('grape'); adds 'pushes' grapes to the end of array
+// fruits.pop(); remove the last item from array
+// fruits.shift(); removes apples, removes first item from array
+// fruits.unshift('orange'); adds orange to the front of the Array.
+
+// const fruits = ['apples', 'bananas'];
+// const newFruits = ["mango", 'pineapple'];
+// const totalFruits = fruits.concat(newFruits);
+
+// console.log(totalFruits); gives you both arrays in one
+
+// const pl = ['Javascript', 'Golang', 'Python', 'PHP'];
+// const numbers = [1, 2, 4, 5, 9];
+
+// console.log(pl,includes('PHP')); will console true because the array does include php
+// console.log(pl.join('-')); will console 'Javascript-Golang-Python-PHP'
+// console.log(pl.reverse()); will console (4) ['PHP', 'Python', 'Golang', 'Javascript']
+// console.log(pl.slice(0, 2)); will console (2) ['Javascript', 'Golang']
+// console.log(numbers.sort); will console them assorted correctly
+
+
+// --> --> --> --> --> --> --> --> --> -->
+
+//OBJECTS
