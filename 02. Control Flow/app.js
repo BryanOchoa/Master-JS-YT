@@ -346,5 +346,18 @@
 // console.log(typeof car);
 // console.log(car);
 
+// --> --> --> --> --> --> --> -->
+
+//Functions
+
+// a function is a block of code that performs a specific task
+// Function's make the code reusable, you can declare it once and use it multiple times.
+// Function's make the program easier as each small task is divided into a function
+// function increases readability.
+// DRY - Don't Repeat Yourself
+// function name(parameterIfAny) {...}
+
+
+
 
 
