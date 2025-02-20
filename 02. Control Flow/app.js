@@ -189,12 +189,10 @@
 
 // console.log(a && b) this will show us false since one is false, if you change b to true that makes both a and b true so it will show true.
 
-
 // 2. --> Logical OR (||)
 //--> TRUE if either the operands/boolean value is true, else it evaluates to false if both are false.
 
 // console.log(a || b); this will show true because one of the two are set to true.
-
 
 // 3. --> Logical NOT (!)
 // --> True if the operands are false and vice-versa
@@ -215,10 +213,9 @@
 //     console.log("Invalid Password")
 // } this gives us a valid password because one of them are true
 
-
 // ----------------------->
 
-// Arrays -> 0 index based 
+// Arrays -> 0 index based
 
 // Empty array
 // const myList = [];
@@ -263,7 +260,7 @@
 // includes() --> checks if any array contains a specified element
 // push() --> adds a new element to the end of an array and returns the new length of an array
 // unshift() --> adds a new element to the beginning of an array and returns the new length of the array
-// pop() --> removes the last element of an array and returns the removed element 
+// pop() --> removes the last element of an array and returns the removed element
 // shift() --> removes the first element of an array and returns the removed element
 // sort() --> sorts the elements alphabetically in strings and in ascending order
 // slice() --> selects the part of an array and returns the new array
@@ -278,7 +275,6 @@
 //     'strawberry',
 //     'pineapple'
 // ];
-
 
 // fruits.push('grape'); adds 'pushes' grapes to the end of array
 // fruits.pop(); remove the last item from array
@@ -300,7 +296,55 @@
 // console.log(pl.slice(0, 2)); will console (2) ['Javascript', 'Golang']
 // console.log(numbers.sort); will console them assorted correctly
 
-
 // --> --> --> --> --> --> --> --> --> -->
 
-//OBJECTS
+//OBJECTS  -->{ label: value}
+
+// const person = {
+//   firstName: "Bryan",
+//   lastName: "Ochoa",
+//   age: 29,
+//   location: ["Planet", "Earth"],
+//   isProgramer: true,
+// };
+
+// console.log(person); consoles : {firstName: 'Bryan', lastName: 'Ochoa', age: 29, location: Array(2), isProgramer: true}
+
+// how to access items in our object
+
+// const person = {
+//   firstName: "Bryan",
+//   lastName: "Ochoa",
+//   age: 29,
+//   location: ["Planet", "Earth"],
+//   isProgramer: true,
+// };
+
+// console.log(person.//shows all the things we can look for after the period);
+// ex: console.log(person.age) consoles 29
+
+// ex: console.log(person['firstName']) consoles Bryan
+
+// to add values to the object
+
+// person.lastName = 'bryan' // adds to the object list if you didn't have one.
+
+// to delete
+// delete person.firstName // consoles object without firstName.
+
+//Challenge
+
+// const car = {
+//     type: "",
+//     model: "Rav4",
+//     color: "blue",
+// }
+
+// car.type = "Toyota"
+// car.wheels = true;
+
+// console.log(typeof car);
+// console.log(car);
+
+
+
